@@ -1,8 +1,9 @@
-def add(a, b):
-    return a + b
+x = 10      # Global variable
 
-x = add(5, 3)
+def show():
+    global x
+    x = 20  # Local variable
+    print(x)
+
+show()
 print(x)
-
-y = print(add(2, 4))
-print(y)
