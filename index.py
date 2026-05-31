@@ -1,6 +1,8 @@
-class Student:
+def add(a, b):
+    return a + b
 
-    def __init__(self):
-        print("Object Created")
-s1 = Student()
-Student.__init__(s1)
+x = add(5, 3)
+print(x)
+
+y = print(add(2, 4))
+print(y)
